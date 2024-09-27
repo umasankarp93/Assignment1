@@ -43,3 +43,4 @@ def test_pet_post():
     new_pet = post_response.json()
     assert new_pet['name'] == pet_data['name']
     assert new_pet['status'] == pet_data['status']
+    
