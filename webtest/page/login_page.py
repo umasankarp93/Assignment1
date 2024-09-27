@@ -17,4 +17,3 @@ class LoginPage:
 
     def click_login(self):
         self.driver.find_element(By.XPATH, Locators.login_button).click()
-

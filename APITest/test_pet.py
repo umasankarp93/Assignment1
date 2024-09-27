@@ -16,7 +16,6 @@ def test_pet_list():
         assert 'tags' in pet
         assert 'status' in pet
 
-
 def test_pet_post():
     pet_data = {
         "id": 0,
